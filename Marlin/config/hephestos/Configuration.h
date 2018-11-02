@@ -60,7 +60,7 @@
 // #define PS_DEFAULT_OFF
 
 // Define this to have hotbed support
-//#define HEATED_BED_SUPPORT
+#define HEATED_BED_SUPPORT 1
 
 // The following define selects the stepper profile to use, if enabled printer noise will increase
 // #define PREFER_MAX_SPEED
@@ -524,7 +524,7 @@ const bool Z_PROBE_ENDSTOP_INVERTING = true; // set to true to invert the logic 
 
 #ifdef HEATED_BED_SUPPORT
   #define TEMP_SENSOR_BED 1
-  #define HBP_PREHEAT_TEMP 50 
+  #define HBP_PREHEAT_TEMP 60 
 #endif
 
 //===========================================================================
