@@ -391,7 +391,7 @@ int getHeaterPower(int heater) {
     (defined(EXTRUDER_2_AUTO_FAN_PIN) && EXTRUDER_2_AUTO_FAN_PIN > -1)
 
   #if defined(FAN_PIN) && FAN_PIN > -1
-    #if EXTRUDER_0_AUTO_FAN_PIN == FAN_PIN 
+    #if EXTRUDER_0_AUTO_FAN_PIN == HEATER_0_PIN 
        #error "You cannot set EXTRUDER_0_AUTO_FAN_PIN equal to FAN_PIN"
     #endif
     #if EXTRUDER_1_AUTO_FAN_PIN == FAN_PIN 
