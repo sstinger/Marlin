@@ -513,7 +513,7 @@ const bool Z_PROBE_ENDSTOP_INVERTING = true; // set to true to invert the logic 
 	#define FILAMENT_UNLOAD_EXTRUSION_LENGTH 5
 	#define FILAMENT_UNLOAD_RETRACTION_LENGTH 40
 
-    #define PREHEAT_HOTEND_TEMP 200
+    #define PREHEAT_HOTEND_TEMP 210
     #define PREHEAT_FAN_SPEED 0
     #define COOLDOWN_FAN_SPEED 255
 #endif
